@@ -1,0 +1,31 @@
+.footer{
+    color: white;
+    background-color: var(--primary);
+    grid-column:full-start / full-end;
+    padding:5% 0;
+    text-align: center;
+    
+}
+.footer-items{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+}
+.footer-item{
+    text-align: center;
+    font-family: var(--title-font);
+    display: inline-block;
+    padding:8% 4%;
+    border:2px solid rgba(0,0,0,0);
+}
+
+.footer-item:hover{
+    cursor: pointer;
+    background-color:#152741;
+    
+}
+
+.footer-text{
+    font-family: var(--text-font);
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,75 @@
+.homes{
+    margin:10% 0;
+    grid-column: content-start / content-end;
+    display:grid;
+    
+    font-family: var(--text-font);
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill,minmax(22rem,1fr));
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+    
+}
+
+.home-img{
+    width:100%;
+    margin-bottom: 0;
+  
+}
+.home{
+    
+    position: relative;
+    font-weight: 300;
+    
+}
+.home-name{
+    position: absolute;
+    top:58%;
+    right:5%;
+    text-transform: capitalize;
+    padding:2% 10%;
+    background-color:var(--primary) ;
+    color:white;
+    font-size: 100%;
+   transform:translateY(-5rem);
+   
+    
+
+}
+
+.home-info{
+    background-color:var(--light-bg);
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+    align-items: center;
+    padding:10% 5%;
+    font-size: 1.2rem;
+}
+
+
+.hicon{
+    padding:10%;
+    color:var(--highlight);
+
+}
+
+.home-btn{
+    width:100%;
+    background: var(--highlight);
+    border:0;
+    color:white;
+    padding:5%;
+    font-size: 140%;
+    font-family: var(--text-font);
+    cursor: pointer;
+    border:2px solid rgba(0,0,0,0);
+}
+
+.home-btn:hover{
+    background-color: var(--primary);
+    color:var(--highlight);
+    border:2px solid var(--highlight);
+}
